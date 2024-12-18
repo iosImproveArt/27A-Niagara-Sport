@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6B25B702D12F3E400D0955C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B25B6A2D12F3E400D0955C /* Preview Assets.xcassets */; };
+		F6B25B712D12F3E400D0955C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B25B6C2D12F3E400D0955C /* Assets.xcassets */; };
+		F6B25B722D12F3E400D0955C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B6D2D12F3E400D0955C /* ContentView.swift */; };
+		F6B25B732D12F3E400D0955C /* Niagara_SportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B6E2D12F3E400D0955C /* Niagara_SportApp.swift */; };
+		F6B25B852D12F45400D0955C /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = F6B25B752D12F45400D0955C /* privacy.html */; };
+		F6B25B862D12F45400D0955C /* sport.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B25B822D12F45400D0955C /* sport.xcassets */; };
+		F6B25B872D12F45400D0955C /* QuotesViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B7A2D12F45400D0955C /* QuotesViewGS.swift */; };
+		F6B25B882D12F45400D0955C /* KcalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B7D2D12F45400D0955C /* KcalView.swift */; };
+		F6B25B892D12F45400D0955C /* OnboardingViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B792D12F45400D0955C /* OnboardingViewGS.swift */; };
+		F6B25B8A2D12F45400D0955C /* HomeViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B842D12F45400D0955C /* HomeViewGS.swift */; };
+		F6B25B8B2D12F45400D0955C /* DayliStrerchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B7C2D12F45400D0955C /* DayliStrerchView.swift */; };
+		F6B25B8C2D12F45400D0955C /* LoadingViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B742D12F45400D0955C /* LoadingViewGS.swift */; };
+		F6B25B8D2D12F45400D0955C /* ProfileViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B7F2D12F45400D0955C /* ProfileViewGS.swift */; };
+		F6B25B8E2D12F45400D0955C /* Dopomoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B7B2D12F45400D0955C /* Dopomoga.swift */; };
+		F6B25B8F2D12F45400D0955C /* TrainingViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B812D12F45400D0955C /* TrainingViewGS.swift */; };
+		F6B25B902D12F45400D0955C /* PrivacyViewGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B762D12F45400D0955C /* PrivacyViewGS.swift */; };
+		F6B25B912D12F45400D0955C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B7E2D12F45400D0955C /* ImagePicker.swift */; };
+		F6B25B922D12F45400D0955C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B25B772D12F45400D0955C /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6B25B592D12F3E000D0955C /* Niagara Sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Niagara Sport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B25B6A2D12F3E400D0955C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6B25B6C2D12F3E400D0955C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6B25B6D2D12F3E400D0955C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6B25B6E2D12F3E400D0955C /* Niagara_SportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Niagara_SportApp.swift; sourceTree = "<group>"; };
+		F6B25B742D12F45400D0955C /* LoadingViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewGS.swift; sourceTree = "<group>"; };
+		F6B25B752D12F45400D0955C /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		F6B25B762D12F45400D0955C /* PrivacyViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewGS.swift; sourceTree = "<group>"; };
+		F6B25B772D12F45400D0955C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F6B25B792D12F45400D0955C /* OnboardingViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewGS.swift; sourceTree = "<group>"; };
+		F6B25B7A2D12F45400D0955C /* QuotesViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewGS.swift; sourceTree = "<group>"; };
+		F6B25B7B2D12F45400D0955C /* Dopomoga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dopomoga.swift; sourceTree = "<group>"; };
+		F6B25B7C2D12F45400D0955C /* DayliStrerchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayliStrerchView.swift; sourceTree = "<group>"; };
+		F6B25B7D2D12F45400D0955C /* KcalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KcalView.swift; sourceTree = "<group>"; };
+		F6B25B7E2D12F45400D0955C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F6B25B7F2D12F45400D0955C /* ProfileViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewGS.swift; sourceTree = "<group>"; };
+		F6B25B812D12F45400D0955C /* TrainingViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewGS.swift; sourceTree = "<group>"; };
+		F6B25B822D12F45400D0955C /* sport.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = sport.xcassets; sourceTree = "<group>"; };
+		F6B25B842D12F45400D0955C /* HomeViewGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewGS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6B25B562D12F3E000D0955C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6B25B502D12F3E000D0955C = {
+			isa = PBXGroup;
+			children = (
+				F6B25B6F2D12F3E400D0955C /* Niagara Sport */,
+				F6B25B5A2D12F3E000D0955C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6B25B5A2D12F3E000D0955C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6B25B592D12F3E000D0955C /* Niagara Sport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6B25B6B2D12F3E400D0955C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6B25B6A2D12F3E400D0955C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6B25B6F2D12F3E400D0955C /* Niagara Sport */ = {
+			isa = PBXGroup;
+			children = (
+				F6B25B6E2D12F3E400D0955C /* Niagara_SportApp.swift */,
+				F6B25B6D2D12F3E400D0955C /* ContentView.swift */,
+				F6B25B782D12F45400D0955C /* Loading G */,
+				F6B25B792D12F45400D0955C /* OnboardingViewGS.swift */,
+				F6B25B7A2D12F45400D0955C /* QuotesViewGS.swift */,
+				F6B25B7B2D12F45400D0955C /* Dopomoga.swift */,
+				F6B25B7C2D12F45400D0955C /* DayliStrerchView.swift */,
+				F6B25B7D2D12F45400D0955C /* KcalView.swift */,
+				F6B25B802D12F45400D0955C /* Profile */,
+				F6B25B832D12F45400D0955C /* Tresha */,
+				F6B25B842D12F45400D0955C /* HomeViewGS.swift */,
+				F6B25B6C2D12F3E400D0955C /* Assets.xcassets */,
+				F6B25B6B2D12F3E400D0955C /* Preview Content */,
+			);
+			path = "Niagara Sport";
+			sourceTree = "<group>";
+		};
+		F6B25B782D12F45400D0955C /* Loading G */ = {
+			isa = PBXGroup;
+			children = (
+				F6B25B742D12F45400D0955C /* LoadingViewGS.swift */,
+				F6B25B752D12F45400D0955C /* privacy.html */,
+				F6B25B762D12F45400D0955C /* PrivacyViewGS.swift */,
+				F6B25B772D12F45400D0955C /* WebView.swift */,
+			);
+			path = "Loading G";
+			sourceTree = "<group>";
+		};
+		F6B25B802D12F45400D0955C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F6B25B7E2D12F45400D0955C /* ImagePicker.swift */,
+				F6B25B7F2D12F45400D0955C /* ProfileViewGS.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F6B25B832D12F45400D0955C /* Tresha */ = {
+			isa = PBXGroup;
+			children = (
+				F6B25B812D12F45400D0955C /* TrainingViewGS.swift */,
+				F6B25B822D12F45400D0955C /* sport.xcassets */,
+			);
+			path = Tresha;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6B25B582D12F3E000D0955C /* Niagara Sport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B25B672D12F3E000D0955C /* Build configuration list for PBXNativeTarget "Niagara Sport" */;
+			buildPhases = (
+				F6B25B552D12F3E000D0955C /* Sources */,
+				F6B25B562D12F3E000D0955C /* Frameworks */,
+				F6B25B572D12F3E000D0955C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Niagara Sport";
+			packageProductDependencies = (
+			);
+			productName = "Niagara Sport";
+			productReference = F6B25B592D12F3E000D0955C /* Niagara Sport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6B25B512D12F3E000D0955C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F6B25B582D12F3E000D0955C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F6B25B542D12F3E000D0955C /* Build configuration list for PBXProject "Niagara Sport" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6B25B502D12F3E000D0955C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F6B25B5A2D12F3E000D0955C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6B25B582D12F3E000D0955C /* Niagara Sport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6B25B572D12F3E000D0955C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B25B702D12F3E400D0955C /* Preview Assets.xcassets in Resources */,
+				F6B25B852D12F45400D0955C /* privacy.html in Resources */,
+				F6B25B862D12F45400D0955C /* sport.xcassets in Resources */,
+				F6B25B712D12F3E400D0955C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6B25B552D12F3E000D0955C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B25B722D12F3E400D0955C /* ContentView.swift in Sources */,
+				F6B25B872D12F45400D0955C /* QuotesViewGS.swift in Sources */,
+				F6B25B882D12F45400D0955C /* KcalView.swift in Sources */,
+				F6B25B892D12F45400D0955C /* OnboardingViewGS.swift in Sources */,
+				F6B25B8A2D12F45400D0955C /* HomeViewGS.swift in Sources */,
+				F6B25B8B2D12F45400D0955C /* DayliStrerchView.swift in Sources */,
+				F6B25B8C2D12F45400D0955C /* LoadingViewGS.swift in Sources */,
+				F6B25B8D2D12F45400D0955C /* ProfileViewGS.swift in Sources */,
+				F6B25B8E2D12F45400D0955C /* Dopomoga.swift in Sources */,
+				F6B25B8F2D12F45400D0955C /* TrainingViewGS.swift in Sources */,
+				F6B25B902D12F45400D0955C /* PrivacyViewGS.swift in Sources */,
+				F6B25B912D12F45400D0955C /* ImagePicker.swift in Sources */,
+				F6B25B922D12F45400D0955C /* WebView.swift in Sources */,
+				F6B25B732D12F3E400D0955C /* Niagara_SportApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6B25B652D12F3E000D0955C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6B25B662D12F3E000D0955C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6B25B682D12F3E000D0955C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Niagara Sport/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Niagara sport";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set your profile picture.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F6B25B692D12F3E000D0955C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Niagara Sport/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Niagara sport";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set your profile picture.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6B25B542D12F3E000D0955C /* Build configuration list for PBXProject "Niagara Sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B25B652D12F3E000D0955C /* Debug */,
+				F6B25B662D12F3E000D0955C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B25B672D12F3E000D0955C /* Build configuration list for PBXNativeTarget "Niagara Sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B25B682D12F3E000D0955C /* Debug */,
+				F6B25B692D12F3E000D0955C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6B25B512D12F3E000D0955C /* Project object */;
+}
